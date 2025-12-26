@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Data files (raw and processed)
+data/
+*.csv
+*.h5
+*.npy
+
+# PyCharm files
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Model artifacts (optional)
+#models/
