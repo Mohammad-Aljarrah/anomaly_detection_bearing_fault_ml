@@ -2,15 +2,20 @@
 __pycache__/
 *.pyc
 
-# Virtual environments
-venv/
-env/
+# Virtual environment
+venv1/
 
 # Data files (raw and processed)
 data/
 *.csv
 *.h5
 *.npy
+
+# Model artifacts
+models/
+
+# Results
+results/
 
 # PyCharm files
 .idea/
@@ -21,5 +26,6 @@ data/
 # Logs
 *.log
 
-# Model artifacts (optional)
-#models/
+# OS temp files
+.DS_Store
+Thumbs.db
